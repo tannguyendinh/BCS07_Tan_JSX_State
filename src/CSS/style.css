@@ -1,0 +1,77 @@
+.background {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.background .left_model {
+    position: relative;
+    width: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.background .left_model img {
+    position: relative;
+    width: 100%;
+}
+
+.background .left_model .showKinh img {
+    position: absolute;
+
+    left: 50%;
+
+    top: 25%;
+
+    transform: translateX(-50%);
+    width: 55%;
+    opacity: 75%;
+    ;
+
+}
+
+.background .left_model .background_model {
+    background-color: rgba(255, 166, 0, .3);
+    bottom: 0;
+    left: 0;
+
+    position: absolute;
+    width: 100%;
+}
+
+.background .left_model .background_model h3 {
+    font-size: 2.5vw;
+    padding-left: 5%;
+}
+
+.background .left_model .background_model p {
+    font-size: 1.4vw;
+    padding-left: 5%;
+}
+
+/* show kính bên phải  */
+.background .right_showKinh {
+    width: 50%;
+}
+
+.content img {
+    /* position: relative; */
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.right_showKinh img:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.right_showKinh img {
+    border: 2px solid transparent;
+    /* height: 100px; */
+    width: 150px;
+    border-radius: 5%;
+    padding: 10% 0;
+
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    transition: border-color 0.3s ease;
+}
